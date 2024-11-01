@@ -1,0 +1,44 @@
+.banner {
+ background-image: linear-gradient(0deg, red 0%, yellow50%)url(../../images/backgroud.jpg);
+ background-size: cover;
+ background-position: center;
+color: white;
+padding: 150px; 0px
+}
+
+.banner h1 {
+
+font-size: 100px;
+
+}
+.banner h2 {
+  font-size: 30px;
+  font-weight: lighter;
+  opacity: 0.8;
+  margin-bottom: 40px;
+.banner {
+    position: relative; 
+    background-image: url('../../images/background.jpg'); 
+    background-size: cover; 
+    height: 400px; 
+    width: 100%; 
+}
+
+.btn-billetterie {
+    position: absolute;
+    right: 20px; /* À 20px du bord droit du conteneur */
+    top: 20px; /* À 20px du haut du conteneur */
+    padding: 10px 20px;
+    background-color: white; /* Fond blanc */
+    color: black; /* Texte noir pour contraster avec le fond blanc */
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+.btn-billetterie:hover {
+    background-color: #e0e0e0; /* Un gris clair au survol */
+
+      
